@@ -21,7 +21,7 @@ if (os.path.isfile('FirstTimeSetup.bat')):
         print("running first time setup . . .")
         print("This will take a while.")
         os.system('FirstTimeSetup.bat')	
-else (print("uhhh I honestly don't know how its possible you\n are seeing this."))
+else: print("uhhh I honestly don't know how its possible you\n are seeing this.")
 os.system('cls')
 os.system("color 09")
 print("Done; Launching launcher")
