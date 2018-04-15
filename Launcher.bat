@@ -1,7 +1,9 @@
 @ECHO OFF
 set /P PPYTHON_PATH=<PPYTHON_PATH
-if exist FirstTimeSetup.bat (
+if exist dontrunme.bat (
 goto A )
+if not exist dontrunme.bat (
+goto Y)
 :A
 start README.txt
 set didread="n" 

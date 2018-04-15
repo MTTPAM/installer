@@ -23,4 +23,4 @@ to MTTPA
 
 Run MTTPA
 
-If you have an Ip adress for a server fill it in, if not click go and the game will download / update
+If you have an Ip adress for a server fill it in, if not click go and the game will download and or update

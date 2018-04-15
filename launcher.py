@@ -11,16 +11,16 @@ if (os.path.exists("git") == 0):
      print("You failed to follow instructions")
      print("You're installer is invalid please re-extract")
      sys.exit()  
-if (os.path.isfile('FirstTimeSetup.bat') == 0):
+if (os.path.isfile('dontrunme.bat') == 0):
 		print("Checking for updates . . .")
 		os.system("color 02")
 		os.system("git/bin/git fetch")
 		os.system("git/bin/git reset --hard origin/master")
-if (os.path.isfile('FirstTimeSetup.bat')):
+if (os.path.isfile('dontrunme.bat')):
         os.system("color 06")
         print("running first time setup . . .")
         print("This will take a while.")
-        os.system('FirstTimeSetup.bat')	
+        os.system('dontrunme.bat')	
 else: print("uhhh I honestly don't know how its possible you\n are seeing this.")
 os.system('cls')
 os.system("color 09")
