@@ -3,4 +3,4 @@ set git=git/bin/git
 %git% remote add origin https://github.com/MTTPAM/PublicRelease.git
 %git% fetch --all
 %git% reset --hard origin/master
-del FirstTimeSetup.bat
+del dontrunme.bat
