@@ -12,12 +12,12 @@ if (os.path.exists("C:/Program Files (x86)/Git/bin") == 0 and os.path.exists("C:
      print("Git MUST be installed to the default directory")
      print("https://git-scm.com/download/win")
      sys.exit()  
-if (os.path.isfile('FirstTimeSetup.bat') == 0):
+if (os.path.isfile('dontrunme.bat') == 0):
 		print("Checking for updates . . .")
 		os.system("color 02")
 		os.system("git fetch")
 		os.system("git reset --hard origin/master")
-if (os.path.isfile('FirstTimeSetup.bat')):
+if (os.path.isfile('dontrunme.bat')):
         os.system("color 06")
         print("running first time setup . . .")
         print("This will take a while.")
