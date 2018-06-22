@@ -23,4 +23,6 @@ to MTTPA
 
 Run MTTPA
 
-If you have an Ip adress for a server fill it in, if not click go and the game will download and or update
+Confused? Talk to #help-support!
+
+For directions on running a localhost server checkout readme.txt after the game installs!
