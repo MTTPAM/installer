@@ -17,11 +17,11 @@ if (os.path.isfile('dontrunme.bat') == 0):
 		os.system("color 02")
 		os.system("git fetch")
 		os.system("git reset --hard origin/master")
-if (os.path.isfile('dontrunme.bat')):
+if (os.path.isfile('dontrunme.bat') == 1):
         os.system("color 06")
         print("running first time setup . . .")
         print("This will take a while.")
-        os.system('FirstTimeSetup.bat')	
+        os.system('dontrunme.bat')	
 os.system('cls')
 os.system("color 09")
 print("Done; Launching launcher")

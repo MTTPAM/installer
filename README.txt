@@ -1,27 +1,9 @@
 How to install
 
-Right Click launcher.bat -> Send to desktop
+If you don't have git installed, go a head and install it now:
+https://git-scm.com/
 
-Find the Icon on your desktop
-
-Right click and hit Properties
-
-Click Change Icon
-
-Click Ok
-
-Click Browse
-
-Locate where you unzipped.
-
-select Icon.ico
-
-Click ok Then click Apply
-
-Rename Launcher.bat - Shortcut 
-to MTTPA
-
-Run MTTPA
+After you have git installed launch launcher.bat
 
 Confused? Talk to #help-support!
 
