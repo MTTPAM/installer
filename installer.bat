@@ -1,4 +1,4 @@
 @ECHO OFF
 set /P PPYTHON_PATH=<PPYTHON_PATH
-%PPYTHON_PATH% launcher.py
+%PPYTHON_PATH% installer.py
 pause
