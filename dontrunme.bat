@@ -7,6 +7,9 @@ rem fetch all updates to the repo
 git fetch --all
 rem reset the folder
 git reset --hard
+rem set branch to non-memes
+git branch
+git checkout Memeless-MTTPAM
 rem remove the installer.py
 del installer.py /A
 rem Finished Remove dontrunme
