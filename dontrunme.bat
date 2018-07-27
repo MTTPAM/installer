@@ -6,7 +6,7 @@ git remote add Memeless-MTTPAM https://github.com/MTTPAM/PublicRelease.git
 rem fetch all updates to the repo
 git fetch --all
 rem reset the folder
-git reset --hard origin/master
+git reset --hard
 rem remove the installer.py
 del installer.py /A
 rem Finished Remove dontrunme
