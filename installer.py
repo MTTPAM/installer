@@ -26,7 +26,7 @@ else:
     if dev:
         print("Fetching files, and updating.")
     os.system("git fetch --all")
-    os.system("git reset --hard")
+    os.system("git reset --hard origin/master")
     os.system("color 09")
     print("Done; Launching launcher")
     os.system("del installer.py /A")
